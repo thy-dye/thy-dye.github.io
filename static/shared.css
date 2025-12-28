@@ -1,0 +1,26 @@
+/* 1. Define the variable */
+html {
+  --bg-1: #051118;
+  --bg-2: #0a4160;   /* Add these others too */
+  --fg-1: #946f4a;
+  --link: #1c7ed4;
+}
+
+/* 2. USE the variable on the body */
+body {
+  background: var(--bg-1);  /* ← THIS APPLIES THE BACKGROUND */
+  color: var(--fg-1);
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Tahoma";
+}
+
+/* 3. Optionally style other elements */
+nav {
+  background: var(--bg-2);
+  padding: 1rem;
+}
+
+a {
+  color: var(--link);
+}
