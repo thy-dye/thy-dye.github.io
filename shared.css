@@ -52,10 +52,10 @@
 }
 
 html {
-  --bg-1: #233945;
+  --bg-1: #303030;
   --bg-2: #0a4160;   
-  --fg-1: #ef603d;
-  --link: #2194f8;
+  --fg-1: #e6f0fa;
+  --link: #6fa8dc;
   font-size: 16px;
   overflow-x: hidden;
 }
@@ -150,6 +150,5 @@ nav {
 }
 
 .footer-note a:hover {
-  color: #0066cc;
   text-decoration: underline;
 }
