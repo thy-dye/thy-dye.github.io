@@ -52,10 +52,10 @@
 }
 
 html {
-  --bg-1: #051118;
+  --bg-1: #233945;
   --bg-2: #0a4160;   
-  --fg-1: #946f4a;
-  --link: #1c7ed4;
+  --fg-1: #ef603d;
+  --link: #2194f8;
   font-size: 16px;
   overflow-x: hidden;
 }
@@ -126,13 +126,13 @@ nav {
 .button-icon img {
   width: 2rem;
   height: 2rem;
-  filter: invert(40%) sepia(44%) saturate(395%) hue-rotate(349deg) brightness(103%) contrast(94%);
+  filter: invert(46%) sepia(57%) saturate(2681%) hue-rotate(337deg) brightness(96%) contrast(83%);
 }
 
 
 /*   FOOTER CSS FORMATING   */
 .page-footer {
-  background: #f5f5f5; /* Light grey */
+  background: #303030; /* Light grey */
   padding: 1rem;
   margin-top: 4rem;
   text-align: center;
